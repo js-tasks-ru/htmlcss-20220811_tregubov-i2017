@@ -1,1 +1,131 @@
 /* Стилизация кнопки */
+.buttonDefault1 {
+    background-color:blue;
+    border: none;
+    color:white;
+    text-align:center;
+    font-size: 24px;
+    width: 250px; 
+}
+.buttonDefault2 {
+    background-color:purple;
+    border: none;
+    color:white;
+    text-align:center;
+    font-size: 24px; 
+    width: 250px;
+   
+}
+.buttonDefault3 {
+    background-color:none;
+    border:1px black;
+    color:black;
+    font-size: 24px; 
+    text-align:center;
+    width: 250px;
+    
+    
+}
+.buttonH1 {
+    background-color: yellow;
+    color: black;
+    font-size: 24px; 
+    border: none;
+    width: 250px;
+    
+}
+.buttonH1:hover {
+    background-color:blue;
+    border: none;
+    color:white;
+    text-align:center;
+    font-size: 24px; 
+    width: 250px;
+
+}
+.buttonH2 {
+    background-color: red;
+    color: white;
+    font-size: 24px; 
+    border: none;
+    width: 250px;
+
+}
+
+.buttonH2:hover {
+    background-color:purple;
+    border: none;
+    color:white;
+    text-align:center;
+    font-size: 24px;
+    width: 250px;
+    
+}
+
+.buttonH3 {
+    background-color: none;
+    color: white;
+    font-size: 24px; 
+    border: none;
+    width: 250px;
+
+    
+}
+
+.buttonH3:hover{
+    background-color:none;
+    border:1px black;
+    color:black;
+    font-size: 24px; 
+    text-align:center;
+    width: 250px;
+}
+
+
+.buttonD1:disabled {
+    background-color:blue;
+    border: none;
+    color:white;
+    text-align:center;
+    font-size: 24px; 
+    filter:brightness(0.5);
+    width: 250px;
+
+}
+.buttonD2:disabled {
+    background-color:purple;
+    border: none;
+    color:white;
+    text-align:center;
+    font-size: 24px;
+    filter:brightness(0.5);
+    width: 250px;
+
+}
+.buttonD3:disabled {
+    background-color:none;
+    border:1px black;
+    color:black;
+    font-size: 24px; 
+    text-align:center;
+    filter:brightness(0.5);
+    width: 250px;
+    
+}
+
+.Primary {
+    
+ 
+    float: left;
+}
+.Secondary {
+    
+    display: block;
+   
+}
+
+.Alternative {
+   
+    display: block;
+    
+}
